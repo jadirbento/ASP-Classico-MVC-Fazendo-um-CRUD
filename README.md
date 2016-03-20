@@ -1,12 +1,12 @@
-# ASP-Clássico-MVC-Fazendo-um-CRUD
+# ASP Clássico MVC Fazendo Um CRUD
 
-[![ASP-Clássico-MVC](http://pilaronline.net/namiinfo/wp-content/uploads/2012/01/logo_asp.png)]
+[!(http://pilaronline.net/namiinfo/wp-content/uploads/2012/01/logo_asp.png)]
 
 ASP-Clássico-MVC is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
 Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
 
 
-## Some Handy Links
+## Funcionalidade
 
 [ASP-Clássico-MVC](http://www.ASP-Clássico-MVC.org) - The rapid development PHP framework
 
