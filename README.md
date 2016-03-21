@@ -7,10 +7,13 @@ O ASP Clássico não é capaz de aproveitar cem por cento dos benefícios do MVC
 
 
 ## RouteConfig
-[ASP-Clássico-MVC]http://localhost/?grupos/index/
-[ASP-Clássico-MVC]http://localhost/?grupos/cadastrar/
-[ASP-Clássico-MVC]http://localhost/?grupos/atualizar/4/
-[ASP-Clássico-MVC]http://localhost/?grupos/excluir/4/
+```
+http://localhost/?grupos/index/
+http://localhost/?grupos/cadastrar/
+http://localhost/?grupos/atualizar/4/
+http://localhost/?grupos/excluir/4/
+
+```
 [ASP-Clássico-MVC]Estas requisições acimas são resolvidas pelo RouteConfig da seguinte forma:
 -O primeiro parâmetro é o Controller (controller=grupos);
 -O segundo parâmetro é uma Action (action=cadastrar);
@@ -22,6 +25,8 @@ Esta requisição retorna um conteúdo simples (sem menu, por exemplo), isso voc
 ajax. Neste mesmo formato você pode informar por exemplo, a paginação etc.
 
 Os parâmetros são passados e recebidos da seguinte forma:
+
+```
 Public Sub Excluir(vars)
     Dim res, objEx
     Set objEx = new GruposHelper
@@ -32,6 +37,8 @@ Public Sub Excluir(vars)
         'sucesso
     End If
 End Sub
+```
+
 
 
 
