@@ -14,13 +14,13 @@ http://localhost/?grupos/atualizar/4/
 http://localhost/?grupos/excluir/4/
 
 ```
-[ASP-Clássico-MVC]Estas requisições acimas são resolvidas pelo RouteConfig da seguinte forma:
--O primeiro parâmetro é o Controller (controller=grupos);
--O segundo parâmetro é uma Action (action=cadastrar);
--O terceiro parâmetro é um ID, é obrigatório se a requisição for diferente de index.
+Estas requisições acimas são resolvidas pelo RouteConfig da seguinte forma:
+-O primeiro parâmetro é o `Controller` (controller=grupos);
+-O segundo parâmetro é uma `Action` (action=cadastrar);
+-O terceiro parâmetro é um `ID`, é obrigatório se a requisição for diferente de index.
 
 Outros parâmetros também pedem ser passados, por exemplos:
-http://localhost/?grupos/detalhes/2/partial:view/.
+`http://localhost/?grupos/detalhes/2/partial:view/`.
 Esta requisição retorna um conteúdo simples (sem menu, por exemplo), isso você define no layout do 
 ajax. Neste mesmo formato você pode informar por exemplo, a paginação etc.
 
