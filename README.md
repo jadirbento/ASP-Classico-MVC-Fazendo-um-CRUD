@@ -7,11 +7,11 @@ O ASP Clássico não é capaz de aproveitar cem por cento dos benefícios do MVC
 
 
 ## RouteConfig
-http://localhost/?grupos/index/
-http://localhost/?grupos/cadastrar/
-http://localhost/?grupos/atualizar/4/
-http://localhost/?grupos/excluir/4/
-Estas requisições acimas são resolvidas pelo RouteConfig da seguinte forma:
+[ASP-Clássico-MVC]http://localhost/?grupos/index/
+[ASP-Clássico-MVC]http://localhost/?grupos/cadastrar/
+[ASP-Clássico-MVC]http://localhost/?grupos/atualizar/4/
+[ASP-Clássico-MVC]http://localhost/?grupos/excluir/4/
+[ASP-Clássico-MVC]Estas requisições acimas são resolvidas pelo RouteConfig da seguinte forma:
 -O primeiro parâmetro é o Controller (controller=grupos);
 -O segundo parâmetro é uma Action (action=cadastrar);
 -O terceiro parâmetro é um ID, é obrigatório se a requisição for diferente de index.
